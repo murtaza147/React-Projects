@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  height: 55px;
+  width: 100%;
+  background: #F55A5A;
+}
+.navbar--header{
+  margin: auto;
+  display: flex;
+  width: 140px;
+}
+.navbar--img {
+  width: 24px;
+  height: 24px;
+}
+.navbar--title {
+  margin: auto;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  
+  color: #FFFFFF;
+}
+
+
+.entry--container {
+  display: flex;
+  margin: auto;
+  width: 471px;
+  padding-top: 15px;  
+}
+.entry--img {
+  width: 126px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  align-self: center;
+}
+.entry--text {
+  padding-left: 20px;
+}
+.entry--path {
+  width: 9px;
+  height: 9px;
+}
+.entry--location {
+  display: inline-block;
+  padding-left: 3px;
+  height: 10px;
+  
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  
+  color: #2B283A;
+}
+.entry--maps {
+  width: 106px;
+  height: 13px;
+
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: normal;
+
+  color: #918E9B;
+}
+.entry--title {
+  width: 326px;
+  height: 40px;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  
+  color: #2B283A;
+}
+.entry--date {
+  width: 319px;
+  height: 11px;
+  
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  
+  color: #2B283A;
+}
+.entry--description {
+  width: 326px;
+  height: 45px;
+
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+  color: #2B283A;
+}
+.entry--line {
+  width: 471px;
+  
+  height: 1px;
+  background-color: #F5F5F5;
+  border: none;
+}
